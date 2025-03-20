@@ -1,0 +1,134 @@
+/* General container styling */
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.todo-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title Styling */
+.todo-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Section */
+.todo-input-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.todo-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.todo-button:hover {
+    background-color: #0056b3;
+}
+
+/* Task List */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.task-text {
+    font-size: 16px;
+}
+
+.task-done {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.up-button {
+    background-color: #ffa500;
+    color: white;
+}
+
+.up-button:hover {
+    background-color: #cc8400;
+}
+
+.done-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.done-button:hover {
+    background-color: #1e7d32;
+}
+
+.uppercase-all-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #6c757d;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.uppercase-all-button:hover {
+    background-color: #545b62;
+}
